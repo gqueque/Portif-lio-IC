@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+  <link rel="icon" href="imagens/foto_eu_cana.ico" type="image/x-icon">
+
+</head>
+<body>
+  <main>
+   
+    <header>
+      <div class="logo">
+        Home do Portfólio
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Quem é Queque</a>
+          <a href="projetos.html">Projetos</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+
+    <section id="home">
+      <div class="home-info">
+        <h1>Meu portfólio</h1>
+        <h2>Olá, sou Gustavo</h2>
+        <span class="home-position">Aprendendo Programação em Python e Cypress</span>
+        <div class="home-resume">
+          <h3>Minhas Experiências</h3><br>
+          <ul>
+              <li>Experiência em desenvolvimento Web (HTML, CSS, JS, Wordpress)</li>
+              <li>Conhecimento em Regex</li>
+              <li>Atendimento ao suporte N2</li>
+              <li>Atualmente atuando como Q.A usando Cypress</li>
+              <li>Ferramentas: Jira, GCP, Postman, PgAdmin</li>
+          </ul>
+      </div>
+      </div>
+      <div class="home-img">
+        <img src="imagens/WhatsApp Image 2024-10-04 at 21.23.57.jpeg" alt="Foto de perfil">
+      </div>
+    
+    </section>
+
+    <section id="projects">
+      <h2>Já trabalhei com:</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="imagens/tela-inicial-wordpress-1024x530.jpg" alt="Foto desse site">
+            </div>
+            <div class="project-info">
+              <h2>WebSites Modernos</h2>
+              <p>Criação de websites responsivos.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="imagens/exemplo_regex.png" alt="Foto de um exemplo de extração de Regex">
+            </div>
+            <div class="project-info">
+              <h2>Captura de textos com Regex</h2>
+              <p>Criação de códigos Regex para captura de textos específicos, facilitando o trabalho de PowerBI.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="imagens/exemplo_cypress.png" alt="Foto de um sistema">
+            </div>
+            <div class="project-info">
+              <h2>Testes automatizados</h2>
+              <p>Testes caixa branca em Cypress</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <footer>
+    Site feito para a disciplina de Introdução a Computação.
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
